@@ -1,0 +1,50 @@
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_T1_R1\data_X10Y-10.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_T2_R2\data_X10Y-10.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_T3_R3\data_X10Y-10.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_T6_R6\data_X10Y-10.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_ref\ref_T1_R1_data_X0Y0.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_ref\ref_T2_R2_data_X0Y0.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_ref\ref_T3_R3_data_X0Y0.csv
+Processing file: C:\Users\karth\Downloads\Localization mat\Kartheek\grid_ref\ref_T6_R6_data_X0Y0.csv
+Processed signals saved to workspace as "processed_signals".
+Processed signals structure:
+  1×9 struct array with fields:
+
+    file
+    time
+    resampled
+    normalized
+    filtered
+    envelope
+    envelope_max
+    is_valid
+    after140_category
+    after140_max
+    after140_mean
+
+Number of processed signals: 9
+ToF (envelope peak): 84.82 us
+ToF (score peak): 84.82 us
+ToF (envelope peak): 57.56 us
+ToF (score peak): 57.56 us
+Signal rejected: signal env peak 1.123 ≥ ref env peak 0.989 after 140 µs
+Skipping Sensor 3: Invalid ToF (env after 140 µs >= 1)
+ToF (envelope peak): 73.30 us
+ToF (score peak): 73.30 us
+ToF1: 84.82 µs, Distance1: 62.77 mm
+ToF2: 57.56 µs, Distance2: 42.59 mm
+ToF3: NaN µs, Distance3: NaN mm
+ToF4: 73.30 µs, Distance4: 54.24 mm
+Multilateration region computed. Number of probable points: 0
+Debug: 105 points retained inside the cylinder boundaray.
+Debug: 131 points retained inside the cylinder boundaray.
+Debug: 0 points retained inside the cylinder boundaray.
+Debug: 117 points retained inside the cylinder boundaray.
+Skipping Sensor 3: invalid locus or distance
+Debug: 105 points retained inside the cylinder boundaray.
+Debug: 131 points retained inside the cylinder boundaray.
+Debug: 0 points retained inside the cylinder boundaray.
+Debug: 117 points retained inside the cylinder boundaray.
+Started at: 01-Aug-2025 09:37:40
+Ended at: 01-Aug-2025 09:38:04
+Elapsed time: 00:00:24
